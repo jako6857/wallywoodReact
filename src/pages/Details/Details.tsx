@@ -18,25 +18,22 @@ export function Details() {
     <div className={style.details}>
       {/* Poster image */}
       <img className={style.poster} src={data.image} alt={data.name} />
-
       {/* Poster info */}
       <div className={style.detailsInfo}>
         <h1>{data.name}</h1>
-
         <p dangerouslySetInnerHTML={{ __html: data.description }}></p>
-
-
         <p>
           <strong>Price:</strong> {data.price} kr
         </p>
-
         <div>
           <strong>Genres:</strong>
           <ul>
             {data.genres.map((genre) => (
               <li key={genre.id}>{genre.title}</li>
+              
             ))}
           </ul>
+           <button className={style.buttonStylingPoster}>Læg i Kurv</button>
         </div>
       </div>
     </div>
