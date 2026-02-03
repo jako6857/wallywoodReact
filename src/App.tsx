@@ -1,6 +1,11 @@
-import { BrowserRouter, Route, Routes } from 'react-router'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Home } from './pages/home/home'
 import { MainLayout } from './layouts/MainLayout'
+import { Posters } from './pages/posters/posters'
+import { Contact } from './pages/Contact/Contact'
+import { About } from './pages/About/About'
+import { Login } from './pages/Login/Login'
+import { Details } from './pages/Details/Details'
 
 function App() {
   return (
@@ -9,10 +14,11 @@ function App() {
         <Routes>
           <Route element={<MainLayout />}>
             <Route index element={<Home />} />
-            <Route path='/about' element={<div>About</div>} />
-            <Route path='/posters' element={<div>Posters</div>} />
-            <Route path='/contact' element={<div>Contact</div>} />
-            <Route path='/login' element={<div>Login</div>} />
+            <Route path='/about' element={<About/>} />
+            <Route path='/posters' element={<Posters/>} />
+            <Route path='/details/:slug' element={<Details/>} />
+            <Route path='/contact' element={<Contact/>} />
+            <Route path='/login' element={<Login/>} />
           </Route>
         </Routes>
       </BrowserRouter>

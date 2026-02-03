@@ -1,0 +1,53 @@
+.posterStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  .posterstyling{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .buttonStylingPoster{
+    background-color: #bb9587;
+    color: rgb(39, 39, 39);
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: fit-content;
+  }
+
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  img {
+    max-width: 160px;
+    margin-right: 16px;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  span {
+    font-size: 0.8rem;
+    display: inline-block;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}

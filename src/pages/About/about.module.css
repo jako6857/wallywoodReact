@@ -1,0 +1,44 @@
+.AboutContainer {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 4rem 0;
+}
+
+.AboutContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.TextSection {
+  flex: 1;
+}
+
+.ImageSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.ImageSection img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.AboutHero {
+  color: #D97852;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.AboutText {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}/*# sourceMappingURL=about.module.css.map */

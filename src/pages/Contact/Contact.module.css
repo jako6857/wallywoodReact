@@ -1,0 +1,50 @@
+.contactHero {
+  color: #D97852;
+  font-size: 2rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-top: 4px solid #D1B3A7;
+  border-radius: 6px;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 450px;
+}
+input:focus,
+textarea:focus {
+  border-color: #5C1F06;
+  box-shadow: 0 0 5px rgba(0, 112, 243, 0.3);
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contactButton {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #D1B3A7;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: solid 2px black;
+}
+.contactButton:hover {
+  background-color: #7b4530;
+}/*# sourceMappingURL=Contact.module.css.map */

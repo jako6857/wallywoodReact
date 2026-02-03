@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"navbar.module.css"}
+{"version":3,"sourceRoot":"","sources":["navbar.module.scss","../../Styles/_globals.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA,OCVgB;EDWhB;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;;AACA;EACE;EACA;;AAEA;EACE;EACA;EACA;EACA","file":"navbar.module.css"}

@@ -1,4 +1,5 @@
-import { NavLink } from 'react-router'
+import Style from './navbar.module.scss'
+import { NavLink } from 'react-router-dom'
 
 interface NavbarProps {
   logoNav: string
@@ -9,7 +10,7 @@ export function Navbar(props: NavbarProps) {
   const { logoNav, linksNav } = props
 
   return (
-    <nav>
+    <nav className={Style.navbarStyle}>
       <h3>{logoNav}</h3>
       <ul>
         {linksNav.map((item) => {

@@ -1,0 +1,45 @@
+.posterStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.posterStyle .posterstyling {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.posterStyle .buttonStylingPoster {
+  background-color: #bb9587;
+  color: rgb(39, 39, 39);
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: fit-content;
+}
+.posterStyle div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.posterStyle img {
+  max-width: 160px;
+  margin-right: 16px;
+}
+.posterStyle h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.posterStyle span {
+  font-size: 0.8rem;
+  display: inline-block;
+}
+.posterStyle p {
+  font-size: 0.9rem;
+}/*# sourceMappingURL=Poster.module.css.map */
